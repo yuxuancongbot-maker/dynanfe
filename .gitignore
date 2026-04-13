@@ -40,8 +40,17 @@ wandb/
 .idea/
 .vscode/
 
-
+# DynaNFE specific
 openpi_cache/
-research_yuxuancong/dynanfe/openpi_cache/
-onestep_pi/onestep_pi/openpi_cache/
-onestep_pi/openpi/
+sigma_labels*.json
+results/
+*.stats.json
+
+# OpenPI virtual environment
+openpi/.venv/
+openpi/uv.lock
+
+# Temporary files
+*.tmp
+*.swp
+*~
