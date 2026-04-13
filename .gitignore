@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# 虚拟环境
+venv/
+.env/
+conda-env/
+
+# 模型权重
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+checkpoints/
+outputs/
+
+# 数据集
+data/
+datasets/
+*.hdf5
+*.h5
+*.zarr
+
+# 日志和实验记录
+runs/
+logs/
+wandb/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 系统文件
+.DS_Store
+.idea/
+.vscode/
+
+
+openpi_cache/
+research_yuxuancong/dynanfe/openpi_cache/
